@@ -27,7 +27,7 @@ function App() {
       <header className="App-header">
         <h1>Tescombobulator</h1>
         <div className='Barcode'>
-          <Barcode value={value} width={4} height={200} />
+          <Barcode value={value} width={2} height={100} />
         </div>
         <button onClick={handleClick} className="App-button">Generate new clubcard</button>
       </header>
